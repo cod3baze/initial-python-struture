@@ -1,12 +1,12 @@
 import json
 
-#dados JSON
+# dados JSON
 x = '{"name":"jhon", "age":30}'
-#Converter os Dados para dicionario python
+# Converter os Dados para dicionario python
 y = json.loads(x)
 print(y)
 
-#dicionario python
+# dicionario python
 w = {
   "name": "John",
   "age": 30,

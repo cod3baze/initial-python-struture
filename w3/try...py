@@ -2,7 +2,7 @@ try:
     x = 0
     print(x)
 except Exception as e:
-    print(f"ocorreu {e}", end="\n\n\n")
+    print(f" Ocorreu {e}", end="\n\n\n")
 
 #---------------------------------------------
 try:

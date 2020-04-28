@@ -1,4 +1,6 @@
-#pode gerar exceções usando a instrução raise.
+# pode gerar exceções usando a instrução raise.
+
+
 print("Oi")
 raise ValueError("Lançando um Érro!")
 print("foi")
@@ -15,7 +17,7 @@ except ZeroDivisionError:
 name = ("123")
 raise NameError("nome inválido!")
 
-#Em exceto blocos, a instrução raise pode ser usada sem argumentos para ressaltar
+# Em exceto blocos, a instrução raise pode ser usada sem argumentos para ressaltar
 # qualquer exceção ocorrida
 try:
     print(5 / 0)
