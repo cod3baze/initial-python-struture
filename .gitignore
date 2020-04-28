@@ -1,0 +1,7 @@
+fotos/*
+*venv/*
+venv/*
+
+*.jpg
+*.jpeg
+*.png
